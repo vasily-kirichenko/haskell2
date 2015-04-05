@@ -1,0 +1,14 @@
+name:           haskell2
+version:        0.1
+cabal-version:  >=1.2
+build-type:     Simple
+author:         kot
+
+executable haskell2
+  hs-source-dirs:  src
+  main-is:         Main.hs
+  build-depends:   
+                   base >= 4,
+                   Crypto >=4.2 && <4.3
+  ghc-options:     -Wall
+
